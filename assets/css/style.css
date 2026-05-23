@@ -57,3 +57,15 @@ h1,h2,h3{line-height:1.15;margin:0 0 1rem}h1{font-size:clamp(2.4rem,7vw,5.4rem);
 @media (max-width:980px){.main-nav{position:fixed;top:76px;right:16px;left:16px;display:none;flex-direction:column;align-items:stretch;background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:12px;box-shadow:var(--shadow)}.main-nav.open{display:flex}.main-nav a{display:block}.nav-toggle{display:inline-flex}.hero-grid,.feature-grid,.cards-2,.content-layout,.bot-card{grid-template-columns:1fr}.toc{position:relative;top:auto}.app-grid,.book-grid,.gallery{grid-template-columns:repeat(2,1fr)}.stat-strip{grid-template-columns:repeat(2,1fr)}.floating-chip{position:relative;display:inline-flex;margin:.5rem}.chip-a,.chip-b{top:auto;right:auto;left:auto;bottom:auto}.footer-grid{grid-template-columns:1fr 1fr}.hero{padding-top:46px}}
 @media (max-width:640px){.container,.narrow{width:min(100% - 22px,var(--max))}.header-inner{height:68px}.brand-name small{display:none}.hero-card,.feature,.cta-band{border-radius:26px}.app-grid,.book-grid,.gallery,.footer-grid{grid-template-columns:1fr}.hero-actions .btn{width:100%}.stat-strip{grid-template-columns:1fr}.section{padding:52px 0}.filters input,.filters select{width:100%}.access-panel{top:78px}.search-panel{padding-top:78px}.site-header{top:0}.main-nav{top:68px}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.001ms!important}}
+.logo-mark {
+  overflow: hidden;
+  background: #fff;
+  padding: 3px;
+}
+
+.logo-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
